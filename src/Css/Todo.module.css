@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.chakrainput {
+  width: 400px !important;
+}
+
+.maindiv1 {
+  margin: 16px !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.button1 {
+  background-color: white !important;
+  color: black;
+  border: 1px solid black;
+  margin-left: 20px;
+  width: 100px !important;
+  height: 37px !important;
+  margin-bottom: 5px !important;
+}
+
+.showgrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 26px;
+    width: 97% !important;
+    margin: auto !important;
+    
+}
+.maindiv{
+  width: 100vw !important;
+  height: 99vh !important;
+}
+.maindivblack{
+  background-color: black !important;
+  width: 100vw !important;
+  height: 99vh !important;
+  color: white !important;
+}
+
+.button1black {
+  background-color: black !important;
+  color: white !important;
+  border: 1px solid white !important;
+  margin-left: 20px;
+  width: 100px !important;
+  height: 37px !important;
+  margin-bottom: 5px !important;
+}
